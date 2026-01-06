@@ -1,17 +1,17 @@
-📌 O que é
+O que é
 
 Algoritmo de busca que encontra um item em uma lista ordenada dividindo o espaço de busca sempre pela metade.
 
 ⸻
 
-📌 Regra mais importante
+Regra mais importante
 
-❗ A lista PRECISA estar ordenada
+A lista PRECISA estar ordenada
 Sem isso, a pesquisa binária não funciona.
 
 ⸻
 
-📌 Como funciona (passo a passo)
+Como funciona (passo a passo)
 	1.	Defino dois índices:
 	•	baixo = 0
 	•	alto = último índice
