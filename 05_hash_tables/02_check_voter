@@ -1,0 +1,13 @@
+const voted = {};
+
+function checkWhoAlreadyVoted(name) {
+  voted[name]
+    ? console.log(`${name} has already voted!`)
+    : ((voted[name] = true), console.log(`${name} can vote!`));
+}
+
+checkWhoAlreadyVoted("leticia")
+checkWhoAlreadyVoted("gabriel")
+checkWhoAlreadyVoted("samuel")
+checkWhoAlreadyVoted("leticia")
+console.log(voted)
